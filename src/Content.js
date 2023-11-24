@@ -646,6 +646,7 @@ let contentarr = [
 <li>Friday - To Do list project</li>
                     <div className="divider"></div>
                     <p>On Friday we were given time to work on our to do list applications, my application was in a good state so I have decided to allocate this time to moving my journal to react which is this current link</p>
+                    <p>You can find my To Do list project <a href="https://tomkeny.github.io/ToDoList/" target="blank">here</a></p>
 </>, // end of week 7
 <>
 <li>Monday - </li>
