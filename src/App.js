@@ -3,7 +3,7 @@ import {Title} from "./Title.js"
 import {NavLink} from "./NavLink.js"
 import {MainTitle} from "./MainTitle.js"
 import "./style.css"
-import {useState} from "react"
+import {useState} from "react" // npm run deploy    this will update gh pages
 
 function App() {
   const [displaying,SetDisplaying] = useState([false,false,false,false,false])
