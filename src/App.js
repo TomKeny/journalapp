@@ -28,7 +28,7 @@ function App() {
         <header>
           <nav>
             <ul>
-              <NavLink week={week} setWeek={setWeek} />
+              <NavLink week={week} setWeek={setWeek} SetDisplaying={SetDisplaying} />
             </ul>
           </nav>
         </header>

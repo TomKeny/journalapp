@@ -618,7 +618,7 @@ let contentarr = [
                     <img src={process.env.PUBLIC_URL + "/images/onClickDelete.png"} id="bigDiagram"></img>
 </>,
 <>
-<li>Wednesday - Consitional Rendering</li>
+<li>Wednesday - Conditional Rendering</li>
                     <div className="divider"></div>
                     <p>On wednesday we learned about conditional rendering which is rendering or not rendering certain elements based off of conditional statements</p>
                     <p>There are 3 types of conditional rendering:</p>
@@ -649,8 +649,19 @@ let contentarr = [
                     <p>You can find my To Do list project <a href="https://tomkeny.github.io/ToDoList/" target="blank">here</a></p>
 </>, // end of week 7
 <>
-<li>Monday - </li>
+<li>Monday - React Component Lifecycle</li>
                     <div className="divider"></div>
+                    <p>On Monday we learned about the lifecycle of react components</p>
+                    <p>Components have a set life cycle, first they are mounted where a constructor creates the initial values and it is added to the render queue, this is then sent on its way to update the DOM which triggers the component mounted event, after this they stay rendered until updated through new props, a new state or a forced update, this will update the DOM with the changes and trigger the component updated event, finally when a component is told to stop rendering it will be taken off the render queue and trigger the component unrendered event</p>
+                    <ul id="smallList">
+                        <li>Mounting - when a component is first added to the render queue</li>
+                        <li>Updating - when a components conent changes and is rerendered</li>
+                        <li>Unmounting - when a component is taken off the render queue</li>
+                    </ul>
+                    <img src={process.env.PUBLIC_URL + "/images/FunctionalComponentLifeCycle.png"} id="bigDiagram"></img>
+                    <p></p>
+                    <p>You can use the events triggered by mounting, updating and unmounting using the following syntax for functional components</p>
+                    <img src={process.env.PUBLIC_URL + "/images/functionalComponentMounting.png"} id="mediumDiagram"></img>
 </>,
 <>
 <li>Tuesday - </li>
