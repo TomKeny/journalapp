@@ -92,6 +92,8 @@ nav ul {
         padding-top: 10px;
         padding-bottom: 10px;
         text-decoration: none;
+        margin-top: 2px;
+        margin-bottom: 2px;
     }
 
 nav a:hover {
