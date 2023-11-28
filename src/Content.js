@@ -680,6 +680,10 @@ let contentarr = [
                         <li>Mongoose - an object data modelling library for mongoDB that simplifies mongoDB and node.js applications</li>
                         <li>MongoDB - a package that allows connecting to a mongoDB database</li>
                     </ul>
+                    <p>Calling an API repeatedly can be an issue so we usually do it when new data needs to be fetched or we use a useEffect hook to fetch the data for initial startup</p>
+                    <img src={process.env.PUBLIC_URL + "/images/APIuseEffect.png"} id="mediumDiagram"></img>
+                    <p>Another good practice is to provide the user with an error when we fail to fetch data from the API, this is often done using the try, throw, catch syntax</p>
+                    <img src={process.env.PUBLIC_URL + "/images/APIError.png"} id="mediumDiagram"></img>
 </>,
 <>
 <li>Wednesday - </li>
