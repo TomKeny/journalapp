@@ -664,8 +664,22 @@ let contentarr = [
                     <img src={process.env.PUBLIC_URL + "/images/functionalComponentMounting.png"} id="mediumDiagram"></img>
 </>,
 <>
-<li>Tuesday - </li>
+<li>Tuesday - APIs</li>
                     <div className="divider"></div>
+                    <p>An API (Application Programming Interface) is an way intermediary between front end and backend software to inteface using requests that return json objects, the software that requests data is known as the client and the information provided to the response is called a resource. There are 5 different ways to interact with APIs</p>
+                    <ul id="smallList">
+                        <li>GET - retrieve a resource from the backend</li>
+                        <li>POST - creates a new resource</li>
+                        <li>PUT - update an existing resource</li>
+                        <li>PATCH - only modifies parts of the content of a resource</li>
+                        <li>DELETE - deletes a resource from the backend</li>
+                    </ul>
+                    <p>Whilst working with mongoDB there were 3 packages needed to interact with a mongoDB database</p>
+                    <ul id="smallList">
+                        <li>express - a package that provides a set of features and tools for web app development and APIs</li>
+                        <li>Mongoose - an object data modelling library for mongoDB that simplifies mongoDB and node.js applications</li>
+                        <li>MongoDB - a package that allows connecting to a mongoDB database</li>
+                    </ul>
 </>,
 <>
 <li>Wednesday - </li>
