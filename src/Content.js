@@ -686,8 +686,11 @@ let contentarr = [
                     <img src={process.env.PUBLIC_URL + "/images/APIError.png"} id="mediumDiagram"></img>
 </>,
 <>
-<li>Wednesday - </li>
+<li>Wednesday - API Project</li>
                     <div className="divider"></div>
+                    <p>On wednesday we were given time to work on a react project that includes an API, I decided on using a random colour API to create a colour pallete maker which takes in a hue (base color), a value (higher is closer to white, lower is closer to black) and a number for how big the pallete should be</p>
+                    <img src={process.env.PUBLIC_URL + "/images/colorPalleteApp.png"} id="bigDiagram"></img>
+                    <p>A link to the site can be found <a href="https://tomkeny.github.io/thirdapp/" target="blank">here</a></p>
 </>,
 <>
 <li>Thursday - </li>
