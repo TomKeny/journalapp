@@ -1,4 +1,4 @@
-export function Title ({week}) {
+function Title ({week}) {
     switch (week) {
         case 1:
             return (
@@ -101,3 +101,5 @@ export function Title ({week}) {
             )
     }
 }
+
+export default Title

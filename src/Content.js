@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 
-export function Content ({week, displaying, swapDisplaying, index}) {
+function Content ({week, displaying, swapDisplaying, index}) {
     let num = (week - 1) * 5
     let content
     content = contentarr[num + index]
@@ -758,3 +758,5 @@ let contentarr = [
                     <div className="divider"></div>
 </>, // end of week 11
 ]
+
+export default Content

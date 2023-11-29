@@ -1,7 +1,7 @@
-import {Content} from "./Content.js"
-import {Title} from "./Title.js"
-import {NavLink} from "./NavLink.js"
-import {MainTitle} from "./MainTitle.js"
+import Content from "./Content.js"
+import Title from "./Title.js"
+import NavLink from "./NavLink.js"
+import MainTitle from "./MainTitle.js"
 import "./style.css"
 import {useState} from "react" // npm run deploy    this will update gh pages
 

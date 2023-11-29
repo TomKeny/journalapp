@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import { useState } from "react"
 
-export function NavLink ({week, setWeek, SetDisplaying}) {
+function NavLink ({week, setWeek, SetDisplaying}) {
 
     let titles = ["Home","Week 1","Week 2","Week 3","Week 4","Week 5","Week 6","Week 7","Week 8","Week 9","Week 10","Week 11"]
     const [hover,setHover] = useState([false,false,false,false,false,false,false,false,false,false,false,false])
@@ -51,3 +51,5 @@ function color (week, hover, index) {
         return {backgroundColor: "rgb(95, 189, 122)"}
     }
 }
+
+export default NavLink
