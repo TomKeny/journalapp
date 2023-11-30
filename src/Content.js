@@ -693,8 +693,60 @@ let contentarr = [
                     <p>A link to the site can be found <a href="https://tomkeny.github.io/thirdapp/" target="blank">here</a></p>
 </>,
 <>
-<li>Thursday - </li>
+<li>Thursday - C#</li>
                     <div className="divider"></div>
+                    <p>On Thursday we went over the basics of C#</p>
+                    <p>We started off by going over object oriented programming, which is a way to use code to represent "things" or objects which have properties</p>
+                    <ul id="smallList">
+                        <li>classes are blueprints used to create objects</li>
+                        <li>classes can inherit properties and methods from other classes, this is called inheritance</li>
+                        <li>classes can be used as a template to create entries for databases</li>
+                    </ul>
+                    <p>After reviewing object oriented programming we looked into C# which has 4 key properties as a programming language</p>
+                    <ul id="smallList">
+                        <li>simple, modern, compiled language</li>
+                        <li>developed mainly for windows</li>
+                        <li>object oriented</li>
+                        <li>Extremely portable, similar to other C languages</li>
+                    </ul>
+                    <p>We also took a quick look into the .NET frameworks main features</p>
+                    <ul id="smallList">
+                        <li>programming framework</li>
+                        <li>allows different languages to communicate with each other</li>
+                        <li>extensive, pre-created code and functions</li>
+                    </ul>
+                    <p>To create a .NET C# project you do the following steps <br></br>1. in an empty folder on visual code press ctrl + shift + p<br></br>2. select .net new project<br></br>3. select Console App and name the program<br></br>4. hit enter and navigate to the program.cs file</p>
+                    <p>Now that you are in your C# file, here are the basic rules of C#</p>
+                    <ul id="smallList">
+                        <li>every self contained line of code ends in ;</li>
+                        <li>code is seperated by blocks using {"{}"}</li>
+                        <li>you have to specify variable data type whilst initializing a variable</li>
+                        <li>namespaces are used to organize and contain code for classes and other namespaces</li>
+                        <li>every line of code ran in c# must be in a class</li>
+                        <li>the default function that is run automatically is Main()</li>
+                    </ul>
+                    <p>A few useful commands to know are:</p>
+                    <ul id="smallList">
+                        <li>Console.ReadLine();  takes in a console input as a string</li>
+                        <li>Console.WriteLine(); writes to the console</li>
+                        <li>Convert.Totypetoconvertto(value to convert); converts to a data type, example Convert.ToInt32("13");</li>
+                        <li>datatype.Parse(value to convert); will convert the value given to the specified data type if possible</li>
+                        <li>using System;   allows us to use classes from the System namespace</li>
+                    </ul>
+                    <p>The 5 main data types used in C# are:</p>
+                    <ul id="smallList">
+                        <li>int - Whole numbers</li>
+                        <li>double - Floating point or decimal numbers</li>
+                        <li>char - a single character</li>
+                        <li>string - multiple characters or text</li>
+                        <li>bool - boolean or true and false</li>
+                    </ul>
+                    <p>Methods or functions in classes have multiple different security levels which helps seperate code</p>
+                    <ul id="smallList">
+                        <li>public - code is accessible for all classes</li>
+                        <li>private - code is accessible in the same class</li>
+                        <li>protected - code is accessible from within the same class and within classes that inherited from from the protected class</li>
+                    </ul>
 </>,
 <>
 <li>Friday - </li>
