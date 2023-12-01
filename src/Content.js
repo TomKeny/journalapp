@@ -749,8 +749,9 @@ let contentarr = [
                     </ul>
 </>,
 <>
-<li>Friday - </li>
+<li>Friday - API Project feedback</li>
                     <div className="divider"></div>
+                    <p>On Friday we gave each other feedback on our API projects, you can find a link to my API project in wednesdays entry</p>
 </>, // end of week 8
 <>
 <li>Monday - </li>
