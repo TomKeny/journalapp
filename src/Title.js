@@ -66,9 +66,9 @@ function Title ({week}) {
         case 8:
             return (
                 <>
-                <h2>TITLE</h2> 
-            <p></p> 
-            <p></p> 
+                <h2>APIs and C#</h2> 
+            <p>We learned how to use APIs effectively</p> 
+            <p>as well as learning basic C#</p> 
             <p>Our lessons were as follows:</p> 
                 </>
             )

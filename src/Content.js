@@ -754,8 +754,19 @@ let contentarr = [
                     <p>On Friday we gave each other feedback on our API projects, you can find a link to my API project in wednesdays entry</p>
 </>, // end of week 8
 <>
-<li>Monday - </li>
+<li>Monday - Full Stack Intro</li>
                     <div className="divider"></div>
+                    <p>On monday we started the process of full stack development includi9ng creating functions for the CRUD operations</p>
+                    <img src={process.env.PUBLIC_URL + "/images/crudOps.jpg"} id="mediumDiagram"></img>
+                    <p>We also learned about .env in full stack which are environment variables that are more secure than regular variables, the key properties of .env variables are:</p>
+                    <ul id="smallList">
+                        <li>can be used for values that don't change often, API keys, URLs</li>
+                        <li>access the env object using process.env</li>
+                        <li>DotEnv is a package that automatically loads environment variables from a .env file into the process.env (auto installed with create-react-app)</li>
+                        <li>create at the top level of your backend file structure</li>
+                        <li>standard naming convention in all caps (PORT=4000)</li>
+                        <li>connection string with username and password go here (MONGODB_URL="connection string")</li>
+                    </ul>
 </>,
 <>
 <li>Tuesday - </li>
