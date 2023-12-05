@@ -769,8 +769,10 @@ let contentarr = [
                     </ul>
 </>,
 <>
-<li>Tuesday - </li>
+<li>Tuesday - Gorup Project Planning</li>
                     <div className="divider"></div>
+                    <p>On Tuesday we spent the morning going over project management as well as familiarizing ourselves with our teams, we also started to plan out what our project was going to be, we decided on a restaurant website, we set up a google doc and miro board to start writing down our ideas to start planning out what needed to be done and the priorities of different things</p>
+                    <img src={process.env.PUBLIC_URL + "/images/groupMiro.png"} id="bigDiagram"></img>
 </>,
 <>
 <li>Wednesday - </li>
