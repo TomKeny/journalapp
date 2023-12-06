@@ -775,8 +775,10 @@ let contentarr = [
                     <img src={process.env.PUBLIC_URL + "/images/groupMiro.png"} id="bigDiagram"></img>
 </>,
 <>
-<li>Wednesday - </li>
+<li>Wednesday - Connecting Backend to Frontend</li>
                     <div className="divider"></div>
+                    <p>On Wednesday we finished learning how to connect backend code to front end code, theres a lot of content so the best way to do this is to share a github to crossreferance for the future</p>
+                    <a href="https://github.com/TomKeny/firstFullStack">click here to see the repository</a>
 </>,
 <>
 <li>Thursday - </li>
