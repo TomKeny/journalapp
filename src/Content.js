@@ -781,8 +781,9 @@ let contentarr = [
                     <a href="https://github.com/TomKeny/firstFullStack">click here to see the repository</a>
 </>,
 <>
-<li>Thursday - </li>
+<li>Thursday - Further C# and Correction Task</li>
                     <div className="divider"></div>
+                    <p>On Thursday we worked through some more advanced C# which involved inherriting from classes and setting up a factory which is a way of producing variations of an object based on the users current needs, we also worked through a troubleshooting task where we troubleshooted a full stack application and get it to get, post, update and delete using a basic front end site</p>
 </>,
 <>
 <li>Friday - </li>
