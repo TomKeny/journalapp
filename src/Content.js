@@ -786,8 +786,9 @@ let contentarr = [
                     <p>On Thursday we worked through some more advanced C# which involved inherriting from classes and setting up a factory which is a way of producing variations of an object based on the users current needs, we also worked through a troubleshooting task where we troubleshooted a full stack application and get it to get, post, update and delete using a basic front end site</p>
 </>,
 <>
-<li>Friday - </li>
+<li>Friday - Finishing Troubleshooting Task</li>
                     <div className="divider"></div>
+                    <p>On Friday we finished the troubleshooting task from Thursday and managed to get the fullstack application fully working which gives me a code referance to base future full stack upon</p>
 </>, // end of week 9
 <>
 <li>Monday - </li>
