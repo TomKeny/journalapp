@@ -75,18 +75,18 @@ function Title ({week}) {
         case 9:
             return (
                 <>
-                <h2>TITLE</h2> 
-            <p></p> 
-            <p></p> 
+                <h2>Full Stack</h2> 
+            <p>We learned how to build a proper backend</p> 
+            <p>and how to use it to make a full stack</p> 
             <p>Our lessons were as follows:</p> 
                 </>
             )
         case 10:
             return (
                 <>
-                <h2>TITLE</h2> 
-            <p></p> 
-            <p></p> 
+                <h2>Group Project Work</h2> 
+            <p>We worked all week on our</p> 
+            <p>group projects</p> 
             <p>Our lessons were as follows:</p> 
                 </>
             )

@@ -769,7 +769,7 @@ let contentarr = [
                     </ul>
 </>,
 <>
-<li>Tuesday - Gorup Project Planning</li>
+<li>Tuesday - Group Project Planning</li>
                     <div className="divider"></div>
                     <p>On Tuesday we spent the morning going over project management as well as familiarizing ourselves with our teams, we also started to plan out what our project was going to be, we decided on a restaurant website, we set up a google doc and miro board to start writing down our ideas to start planning out what needed to be done and the priorities of different things</p>
                     <img src={process.env.PUBLIC_URL + "/images/groupMiro.png"} id="bigDiagram"></img>
@@ -791,43 +791,51 @@ let contentarr = [
                     <p>On Friday we finished the troubleshooting task from Thursday and managed to get the fullstack application fully working which gives me a code referance to base future full stack upon</p>
 </>, // end of week 9
 <>
-<li>Monday - </li>
+<li>Monday - Project Backend</li>
                     <div className="divider"></div>
+                    <p>Daily records from here will start to be brief until this group project is finished as I am putting all my time and energy into the project, on Monday I built up the backend of the application</p>
 </>,
 <>
-<li>Tuesday - </li>
+<li>Tuesday - Login Menu</li>
                     <div className="divider"></div>
+                    <p>On Tuesday I built the login functionality and tried to tie it into my coworkers work</p>
 </>,
 <>
-<li>Wednesday - </li>
+<li>Wednesday - Integrating Login</li>
                     <div className="divider"></div>
+                    <p>Logging in now saves between sessions on the prowser and doesn't reset between pages</p>
 </>,
 <>
-<li>Thursday - </li>
+<li>Thursday - Checkout Page and Order History</li>
                     <div className="divider"></div>
+                    <p>On thursday I built up the checkout page, order history page with the associated functionality as well as helping around to fix sa few API issues that were popping up</p>
 </>,
 <>
-<li>Friday - </li>
+<li>Friday - Loading Animations</li>
                     <div className="divider"></div>
+                    <p>On Friday I added loading animations for the pages and waiting for API information</p>
 </>, // end of week 10
 <>
-<li>Monday - </li>
+<li>Monday - Bug Fixing and Split Menu Frontend</li>
+                    <div className="divider"></div>
+                    <p>On Monday I fixed a few bugs with my previous code and used the code Kev used to set up the split menu to have the frontend menu split up properly as well</p>
+</>,
+<>
+<li>Tuesday - Finishing Touches</li>
+                    <div className="divider"></div>
+                    <p>On Tuesday we put the finishing touches on our group project, such as final rounds of bug fixing and minor features</p>
+</>,
+<>
+<li>Wednesday - The Presentation</li>
+                    <div className="divider"></div>
+                    <p>On Wednesday we made a powerpoint about our project and presented it to the other groups as well as our instructor Leon, since this was our last day, I'll go in depth into our presentation and project on the Thursday and Friday entry</p>
+</>,
+<>
+<li>Project Overview</li>
                     <div className="divider"></div>
 </>,
 <>
-<li>Tuesday - </li>
-                    <div className="divider"></div>
-</>,
-<>
-<li>Wednesday - </li>
-                    <div className="divider"></div>
-</>,
-<>
-<li>Thursday - </li>
-                    <div className="divider"></div>
-</>,
-<>
-<li>Friday - </li>
+<li>Project Presentation</li>
                     <div className="divider"></div>
 </>, // end of week 11
 ]
